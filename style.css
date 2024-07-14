@@ -553,7 +553,7 @@ main {
 
 /* this p controls is the the div where the projects buttons are located */
 .pcontrols>button{
-margin-top:5vh
+margin-top:5vw
        min-width: 10vw;
     min-height: 3vh;
     height: 5vh;
