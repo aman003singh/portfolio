@@ -550,8 +550,23 @@ main {
     font-weight: light;
     color: grey;
 }
-.controls{
+
+/* this p controls is the the div where the projects buttons are located */
+.pcontrols>button{
 margin-top:5vh
+       min-width: 10vw;
+    min-height: 3vh;
+    height: 5vh;
+    background-color: transparent;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    /* border: none; */
+    font-size: 2vh;
+}
+.pcontrols>button:hover{
+     background-color: #fff;
+    color: black;
 }
 .controls>button {
 
@@ -650,6 +665,13 @@ margin-top:5vh
     .controls>button {
 
         min-width: 25vw;
+        min-height: 4vh;
+        height: 5vh;
+        width: auto;
+    }
+
+    .pcontrols>button{
+         min-width: 25vw;
         min-height: 4vh;
         height: 5vh;
         width: auto;
