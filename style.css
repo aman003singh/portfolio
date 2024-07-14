@@ -550,7 +550,9 @@ main {
     font-weight: light;
     color: grey;
 }
-
+.controls{
+margin-top:5vh
+}
 .controls>button {
 
     min-width: 10vw;
