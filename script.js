@@ -166,3 +166,15 @@ function wordAnimation1() {
 }
 wordAnimation1();
 
+
+// this is screen loader 
+// Wait until the entire page (including images, stylesheets, etc.) is loaded
+window.onload = () => {
+  const loader = document.getElementById("three-body");
+  const content = document.getElementById("three-body__dot");
+
+  // Hide the loader and show the main content
+  loader.style.display = "none";
+  content.style.display = "block";
+};
+
