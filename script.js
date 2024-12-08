@@ -183,36 +183,12 @@ window.onload = () => {
   const loader = document.getElementById("three-body");
   const content = document.getElementById("three-body__dot");
 
-  // Check if all images are loaded
-  const images = document.querySelectorAll("img");
-  let imagesLoaded = 0;
-
-  const checkImagesLoaded = () => {
-    imagesLoaded++;
-    if (imagesLoaded === images.length) {
-      showContent();
-    }
-  };
-
-  const showContent = () => {
-    loader.style.display = "none";
-    content.style.display = "block";
-  };
-
-  // If there are images, wait for all of them to load
-  if (images.length > 0) {
-    images.forEach((img) => {
-      if (img.complete) {
-        checkImagesLoaded();
-      } else {
-        img.onload = checkImagesLoaded;
-        img.onerror = checkImagesLoaded; // Handle errors gracefully
-      }
-    });
-  } else {
-    // No images to load, show the content immediately
-    showContent();
-  }
+  // Simulate resource loading or delay
+  setTimeout(() => {
+    loader.style.display = "none"; // Hide the loader
+    content.style.visibility = "visible"; // Show the content
+  }, 2000); // Adjust time as needed (e.g., 2 seconds)
 };
+
 
 
