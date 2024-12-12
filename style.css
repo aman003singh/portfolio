@@ -89,8 +89,8 @@ body {
    /* loader content  */
    .three-body__dot {
     position: absolute;
-    height: 65%;
-    width: 30%;
+    height: 70%;
+    width: 60%;
    }
    
    .three-body__dot:after {
