@@ -70,7 +70,7 @@ body {
 
 /* loader */
 .three-body {
-    --uib-size: 100px;
+    --uib-size: 70px;
     --uib-speed: 0.8s;
     --uib-color: #5D3FD5;
     height: var(--uib-size);
