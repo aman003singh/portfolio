@@ -70,7 +70,7 @@ body {
 
 /* loader */
 .three-body {
-    --uib-size: 125px;
+    --uib-size: 100px;
     --uib-speed: 0.8s;
     --uib-color: #5D3FD5;
     height: var(--uib-size);
@@ -89,7 +89,7 @@ body {
    /* loader content  */
    .three-body__dot {
     position: absolute;
-    height: 70%;
+    height: 100%;
     width: 30%;
    }
    
